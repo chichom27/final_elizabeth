@@ -1,0 +1,12 @@
+<h1>Editing about</h1>
+
+<% form_for(@about) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @about %> |
+<%= link_to 'Back', abouts_path %>

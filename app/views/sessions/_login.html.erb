@@ -1,0 +1,12 @@
+<%- form_tag session_path, :class=>'clearfix' do -%>
+
+		<h1>Member Login</h1>
+		<label class="grey" for="login">Username:</label>
+		<%= text_field_tag 'login', @login, :class=>"field" %></td>
+		<label class="grey" for="password">Password:</label>
+		<%= password_field_tag 'password', nil, :class=>"field" %> </td>
+		<div class="clear"></div>
+		<%= submit_tag 'submit', :class=>"bt_login", :value=>"Login" %>
+		<a class="lost-pwd" href="#">Lost your password?</a>
+
+<% end -%>

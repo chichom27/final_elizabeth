@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/team09_f09/!svn/ver/79/trunk/app/views/homes
+END
+edit.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/team09_f09/!svn/ver/69/trunk/app/views/homes/edit.html.erb
+END
+index.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/team09_f09/!svn/ver/78/trunk/app/views/homes/index.html.erb
+END
+new.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/team09_f09/!svn/ver/69/trunk/app/views/homes/new.html.erb
+END
+terms.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/team09_f09/!svn/ver/79/trunk/app/views/homes/terms.html.erb
+END

@@ -1,0 +1,27 @@
+
+<h1>Comments</h1>
+
+
+
+<% form_for(@comment) do |f| %>
+  <%= f.error_messages %>
+
+<div id="commentBox">
+  <div id="commentBoxName">
+    Your Name: <br/><%= f.text_field :name %>
+  </div>
+  
+<div id="commentBoxComment">
+    
+   Comment: <%= f.text_area :comment , :size => "30x5"%>
+  </div>
+  <p>
+    <%= f.hidden_field :picture_id, :value => @photo.id %>
+  </p>
+  
+    <%= f.submit 'Create' %>
+  
+</div>
+<% end %>
+
+
