@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 45
-/team09_f09/!svn/ver/79/trunk/app/views/homes
+/team09_f09/!svn/ver/86/trunk/app/views/homes
 END
 edit.html.erb
 K 25
@@ -13,7 +13,7 @@ index.html.erb
 K 25
 svn:wc:ra_dav:version-url
 V 60
-/team09_f09/!svn/ver/78/trunk/app/views/homes/index.html.erb
+/team09_f09/!svn/ver/86/trunk/app/views/homes/index.html.erb
 END
 new.html.erb
 K 25
@@ -25,5 +25,5 @@ terms.html.erb
 K 25
 svn:wc:ra_dav:version-url
 V 60
-/team09_f09/!svn/ver/79/trunk/app/views/homes/terms.html.erb
+/team09_f09/!svn/ver/85/trunk/app/views/homes/terms.html.erb
 END

@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 47
-/team09_f09/!svn/ver/81/trunk/app/views/layouts
+/team09_f09/!svn/ver/93/trunk/app/views/layouts
 END
 categories.html.erb
 K 25
@@ -19,7 +19,7 @@ homelayout.html.erb
 K 25
 svn:wc:ra_dav:version-url
 V 67
-/team09_f09/!svn/ver/81/trunk/app/views/layouts/homelayout.html.erb
+/team09_f09/!svn/ver/93/trunk/app/views/layouts/homelayout.html.erb
 END
 organizations.html.erb
 K 25
@@ -31,7 +31,7 @@ event_layout.rhtml
 K 25
 svn:wc:ra_dav:version-url
 V 66
-/team09_f09/!svn/ver/81/trunk/app/views/layouts/event_layout.rhtml
+/team09_f09/!svn/ver/93/trunk/app/views/layouts/event_layout.rhtml
 END
 locations.html.erb
 K 25
@@ -43,7 +43,7 @@ standard.rhtml
 K 25
 svn:wc:ra_dav:version-url
 V 62
-/team09_f09/!svn/ver/81/trunk/app/views/layouts/standard.rhtml
+/team09_f09/!svn/ver/93/trunk/app/views/layouts/standard.rhtml
 END
 homes.html.erb
 K 25
@@ -55,7 +55,7 @@ album_layout.html.erb
 K 25
 svn:wc:ra_dav:version-url
 V 69
-/team09_f09/!svn/ver/81/trunk/app/views/layouts/album_layout.html.erb
+/team09_f09/!svn/ver/93/trunk/app/views/layouts/album_layout.html.erb
 END
 abouts.html.erb
 K 25
@@ -73,7 +73,7 @@ orgshow_layout.rhtml
 K 25
 svn:wc:ra_dav:version-url
 V 68
-/team09_f09/!svn/ver/81/trunk/app/views/layouts/orgshow_layout.rhtml
+/team09_f09/!svn/ver/93/trunk/app/views/layouts/orgshow_layout.rhtml
 END
 albums.html.erb
 K 25

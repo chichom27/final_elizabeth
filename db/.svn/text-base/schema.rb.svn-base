@@ -132,7 +132,6 @@ ActiveRecord::Schema.define(:version => 20091206225419) do
     t.integer  "role_id"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.integer  "id"
   end
 
   create_table "users", :force => true do |t|

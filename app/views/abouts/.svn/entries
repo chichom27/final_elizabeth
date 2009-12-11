@@ -1,14 +1,14 @@
 10
 
 dir
-81
+96
 https://cmu-is-projects.svn.beanstalkapp.com/team09_f09/trunk/app/views/abouts
 https://cmu-is-projects.svn.beanstalkapp.com/team09_f09
 
 
 
-2009-12-06T23:44:57.714617Z
-73
+2009-12-11T00:42:33.002396Z
+96
 surferjermz
 
 
@@ -66,10 +66,10 @@ file
 
 
 
-2009-12-07T06:52:03.861800Z
-d4219d4b643f68fc6b029aee2f479372
-2009-12-06T23:44:57.714617Z
-73
+2009-12-11T01:50:21.292847Z
+a20eb5d91e18570dc3d5416d9d35dfe4
+2009-12-11T00:42:33.002396Z
+96
 surferjermz
 
 
@@ -92,7 +92,7 @@ surferjermz
 
 
 
-621
+3667
 
 new.html.erb
 file
@@ -127,6 +127,40 @@ surferjermz
 
 
 164
+
+terms.html.erb
+file
+
+
+
+
+2009-12-10T20:05:43.120860Z
+c0a87583728b4aa2b925adcc79a97752
+2009-12-10T06:10:14.280182Z
+93
+surferjermz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+17994
 
 show.html.erb
 file

@@ -14,13 +14,9 @@ class AboutsController < ApplicationController
   # GET /abouts/1
   # GET /abouts/1.xml
   def show
-    @about = About.find(params[:id])
-
-    respond_to do |format|
-      format.html # show.html.erb
-      format.xml  { render :xml => @about }
+    render :action => params[:page]
     end
-  end
+ 
 
   # GET /abouts/new
   # GET /abouts/new.xml

@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 49
-/team09_f09/!svn/ver/71/trunk/app/views/locations
+/team09_f09/!svn/ver/96/trunk/app/views/locations
 END
 edit.html.erb
 K 25
@@ -25,5 +25,5 @@ show.html.erb
 K 25
 svn:wc:ra_dav:version-url
 V 63
-/team09_f09/!svn/ver/71/trunk/app/views/locations/show.html.erb
+/team09_f09/!svn/ver/96/trunk/app/views/locations/show.html.erb
 END

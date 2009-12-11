@@ -1,15 +1,15 @@
 10
 
 dir
-81
+96
 https://cmu-is-projects.svn.beanstalkapp.com/team09_f09/trunk/config
 https://cmu-is-projects.svn.beanstalkapp.com/team09_f09
 
 
 
-2009-12-07T05:21:38.894536Z
-79
-kyeh
+2009-12-10T06:10:14.280182Z
+93
+surferjermz
 has-props
 
 
@@ -35,11 +35,11 @@ file
 
 
 
-2009-12-07T06:52:04.543800Z
-7c612767691dd5658ec7c94221629a5f
-2009-12-07T05:21:38.894536Z
-79
-kyeh
+2009-12-10T20:05:43.296860Z
+732a339be67aa832b7d10f846c9ccac7
+2009-12-10T06:10:14.280182Z
+93
+surferjermz
 
 
 
@@ -61,7 +61,7 @@ kyeh
 
 
 
-3052
+3050
 
 boot.rb
 file

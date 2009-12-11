@@ -1,11 +1,20 @@
-<div id="leftColumn">
-<h1>Add photos to album</h1>
- 
-<% form_for @album, :html => { :multipart => true } do |f| %>
-  <%= render :partial => 'form', :locals => {:f => f} %>
-  <p><%= f.submit "Update" %></p>
+<% if logged_in? %>
+	<% if current_user.organization.is_pending == false %>
+		<div id="leftColumn">
+		<h1>Add photos to album</h1>
+		 
+		<% form_for @album, :html => { :multipart => true } do |f| %>
+		  <%= render :partial => 'form', :locals => {:f => f} %>
+		  <p><%= f.submit "Update" %></p>
+		<% end %>
+		 
+		<%= link_to 'Show', @album %> |
+		<%= link_to 'Back', albums_path %>
+		</div>
+	<% else %>
+		<br/><b>You need to be accepted as a valid organization by an admin
+		<br/> before you can add photos to your gallery.</b>	
+	<% end %>
+<% else %>
+	You should log in.
 <% end %>
- 
-<%= link_to 'Show', @album %> |
-<%= link_to 'Back', albums_path %>
-</div>

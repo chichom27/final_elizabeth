@@ -53,14 +53,16 @@ class OrganizationsController < ApplicationController
   def create
     @organization = Organization.new(params[:organization])
     
-    @album = Album.new
-    @album.name = @organization.name
-    @album.save
-    @organization.album_id = @album.id
     
     respond_to do |format|
       if @organization.save
         User.updateOrg(current_user.id,@organization.id)
+        
+        @album = Album.new
+        @album.name = @organization.name
+        @album.save
+        @organization.album_id = @album.id
+        Organization.updateAlbum(@organization.id,@album.id)
         
         current_user.has_role!('owner', @organization)
         flash[:notice] = 'Organization was successfully created.'
@@ -101,9 +103,14 @@ class OrganizationsController < ApplicationController
     
     if current_user.has_role?('org')
       @organization.is_active = false
-      @organization.update_attributes(params[:organization])
+      @organization.save!
     else
       @organization.destroy
+      @events = Event.find(:all, :conditions =>  ["org_id = ?", @organization.id], :order => "created_at")
+      
+      for event in @events
+        event.destroy
+      end
     end
     respond_to do |format|
       format.html { redirect_to(organizations_url) }

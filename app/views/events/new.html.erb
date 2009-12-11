@@ -15,7 +15,7 @@
 		
 		  <p>
 		    <%= f.label "Category: " %>
-		    <%= f.collection_select(:category_id , Category.find(:all), :id , :name) %>
+		    <%= f.collection_select(:category_id , Category.find(:all, :order => :name), :id , :name, { :include_blank => true }) %>
 		  </p> 
 		
 		  <p>
@@ -54,7 +54,7 @@
 		  </p>
 		<% end %>
 	<% else %>
-		<b>You need to be accepted as a valid organization by an admin
+		<br/><b>You need to be accepted as a valid organization by an admin
 		<br/> before you can create events.</b>
 		
 	<% end %>

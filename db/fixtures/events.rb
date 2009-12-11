@@ -1,5 +1,8 @@
 Event.seed_many(:id, [
-=begin
+
+
+#>>> Begin Dummy seed data
+
   { :id => 1, 
     :org_id => 1,
     :name => "Church Autumn Fair",
@@ -51,5 +54,5 @@ Event.seed_many(:id, [
     :end_at => DateTime.now,
     :album_id => 1,
     :description => "Our second annual Lewis and Clark BBQ is on its way. Come for food, horses, and historical attractions!"}
-=end
+
 ])

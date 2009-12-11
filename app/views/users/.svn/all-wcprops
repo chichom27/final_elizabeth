@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 45
-/team09_f09/!svn/ver/74/trunk/app/views/users
+/team09_f09/!svn/ver/87/trunk/app/views/users
 END
 _new.html.erb
 K 25
@@ -13,7 +13,7 @@ new.html.erb
 K 25
 svn:wc:ra_dav:version-url
 V 58
-/team09_f09/!svn/ver/74/trunk/app/views/users/new.html.erb
+/team09_f09/!svn/ver/87/trunk/app/views/users/new.html.erb
 END
 _user_bar.html.erb
 K 25

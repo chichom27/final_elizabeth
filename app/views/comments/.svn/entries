@@ -1,15 +1,15 @@
 10
 
 dir
-81
+96
 https://cmu-is-projects.svn.beanstalkapp.com/team09_f09/trunk/app/views/comments
 https://cmu-is-projects.svn.beanstalkapp.com/team09_f09
 
 
 
-2009-11-18T07:48:26.844015Z
-55
-surferjermz
+2009-12-07T08:41:08.327482Z
+82
+chichom27
 
 
 
@@ -62,7 +62,7 @@ kyeh
 
 _index.html.erb
 file
-82
+
 
 
 
@@ -232,7 +232,7 @@ kyeh
 
 _index_pic.html.erb
 file
-82
+
 
 
 
@@ -266,7 +266,7 @@ chichom27
 
 _new_picture.html.erb
 file
-82
+
 
 
 

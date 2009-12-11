@@ -1,13 +1,13 @@
 K 25
 svn:wc:ra_dav:version-url
 V 36
-/team09_f09/!svn/ver/79/trunk/config
+/team09_f09/!svn/ver/93/trunk/config
 END
 routes.rb
 K 25
 svn:wc:ra_dav:version-url
 V 46
-/team09_f09/!svn/ver/79/trunk/config/routes.rb
+/team09_f09/!svn/ver/93/trunk/config/routes.rb
 END
 boot.rb
 K 25

@@ -15,9 +15,11 @@ User.seed_many(:id, [
         :salt => "fb7eeed7a0678472bdb39e0a06e4c2c040c7567c",
         :crypted_password => "e297737e0e323577332b830fe484bc47f4700693",
         :activation_code => '07494db81eb47f7965a10be7c787ab01a098d37d',
-        :activated_at => DateTime.now}
-#,
-=begin
+        :activated_at => DateTime.now},
+
+#>>> Begin Dummy seed data
+
+
     { :id => 2, 
        :login => "org",
        :name => "org",
@@ -66,7 +68,7 @@ User.seed_many(:id, [
           :crypted_password => "1d337febd8678aa661d554ae42767b9e4f0637b3",
           :activation_code => 'fbf465dddb7648d8f667cd20df0f95a42653c343',
           :activated_at => DateTime.now}
-=end
+
 ])
 
 

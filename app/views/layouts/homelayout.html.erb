@@ -68,7 +68,19 @@ function MM_preloadImages() { //v3.0
 		<div class="tab">
 			<ul class="login">
 		    	<li class="left">&nbsp;</li>
-		        <li><% if logged_in? %>Welcome <%=h current_user.name %>!<%else%>Hello Guest!<% end %></li>
+		        	<% if logged_in? %><li>Welcome <%=h current_user.name %>!</li>
+				    	<% if current_user.activated_at == nil%>
+							<li>Please activated your account.</li>
+						<%else%>
+							<% if current_user.has_role?('org')%>
+								<%if (current_user.org_id == 0) or (current_user.org_id == nil)  %>
+									<li><%= link_to "Create your organization", :controller => 'organizations', :action => 'new' %></li>
+								<%else%>
+									<li><%= link_to current_user.organization.name, organization_path(current_user.organization) %></li>
+								<%end%>
+							<% end %>
+						<% end %>
+					<%else%><li>Hello Guest!<% end %></li>
 				<li class="sep">|</li>
 				<li id="toggle">
 					<% if logged_in? %><%= link_to "Logout", :logout %><%else%>
@@ -95,7 +107,7 @@ function MM_preloadImages() { //v3.0
         </map>
       </div>
       <div id="navbar">
-        <body bgcolor="#ffffff" onload="MM_preloadImages('/images/calendar_button_f2.png','/images/directory_button_f2.png','/images/archive_button_f2.png','/images/information_button_f2.png');">
+        <body bgcolor="#ffffff" onload="MM_preloadImages('/images/calendar_button_f2.png','/images/directory_button_f2.png','/images/archive_button_f2.png','/images/information_button_f2.png','view_map_button_f2.gif');">
   <table border="0" cellpadding="0" cellspacing="0" width="756">
   <!-- fwtable fwsrc="navbarfireworks.png" fwpage="Page 1" fwbase="navbarfireworks.png" fwstyle="Dreamweaver" fwdocid = "201638160" fwnested="0" -->
    
@@ -121,7 +133,7 @@ function MM_preloadImages() { //v3.0
   <!-- end #mainContent -->
     </div>
     <div id="footer">
-      <p>Copyright &copy; 2009 Historic Elizabeth &ndash; All Rights Reserved. | <%= link_to 'Terms of Use', homes_path('terms') %> | <a href="/abouts">Contact Us</a></p>
+      <p>Copyright &copy; 2009 Historic Elizabeth &ndash; All Rights Reserved. | <a href="/homes">Home</a> | <%= link_to 'Terms of Use', abouts_path('terms') %> | <a href="/abouts">Contact Us</a></p>
     <!-- end #footer --></div>
 	
   <!-- end #container --></div>

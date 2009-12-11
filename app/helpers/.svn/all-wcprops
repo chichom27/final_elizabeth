@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 41
-/team09_f09/!svn/ver/73/trunk/app/helpers
+/team09_f09/!svn/ver/92/trunk/app/helpers
 END
 pictures_helper.rb
 K 25
@@ -61,7 +61,7 @@ calendar_helper.rb
 K 25
 svn:wc:ra_dav:version-url
 V 60
-/team09_f09/!svn/ver/65/trunk/app/helpers/calendar_helper.rb
+/team09_f09/!svn/ver/92/trunk/app/helpers/calendar_helper.rb
 END
 locations_helper.rb
 K 25

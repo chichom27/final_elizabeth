@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 40
-/team09_f09/!svn/ver/73/trunk/app/models
+/team09_f09/!svn/ver/95/trunk/app/models
 END
 category.rb
 K 25
@@ -13,13 +13,13 @@ user.rb
 K 25
 svn:wc:ra_dav:version-url
 V 48
-/team09_f09/!svn/ver/71/trunk/app/models/user.rb
+/team09_f09/!svn/ver/87/trunk/app/models/user.rb
 END
 event.rb
 K 25
 svn:wc:ra_dav:version-url
 V 49
-/team09_f09/!svn/ver/62/trunk/app/models/event.rb
+/team09_f09/!svn/ver/95/trunk/app/models/event.rb
 END
 roles_user.rb
 K 25
@@ -51,6 +51,12 @@ svn:wc:ra_dav:version-url
 V 49
 /team09_f09/!svn/ver/82/trunk/app/models/album.rb
 END
+users_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/team09_f09/!svn/ver/93/trunk/app/models/users_helper.rb
+END
 role.rb
 K 25
 svn:wc:ra_dav:version-url
@@ -67,7 +73,7 @@ organization.rb
 K 25
 svn:wc:ra_dav:version-url
 V 56
-/team09_f09/!svn/ver/71/trunk/app/models/organization.rb
+/team09_f09/!svn/ver/87/trunk/app/models/organization.rb
 END
 roles_users.rb
 K 25

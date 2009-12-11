@@ -103,7 +103,7 @@ text-align: center;
 }
 
 .event :hover {
-  background-color: #2EAC6A;
+  background-color: #CCCC00;
 }
  
 .event div { 

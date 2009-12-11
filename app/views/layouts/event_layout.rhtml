@@ -78,7 +78,19 @@ $(document).ready(function(){
 		<div class="tab">
 			<ul class="login">
 		    	<li class="left">&nbsp;</li>
-		        <li><% if logged_in? %>Welcome <%=h current_user.name %>!<%else%>Hello Guest!<% end %></li>
+		        	<% if logged_in? %><li>Welcome <%=h current_user.name %>!</li>
+				    	<% if current_user.activated_at == nil%>
+							<li>Please activated your account.</li>
+						<%else%>
+							<% if current_user.has_role?('org')%>
+								<%if (current_user.org_id == 0) or (current_user.org_id == nil)  %>
+									<li><%= link_to "Create your organization", :controller => 'organizations', :action => 'new' %></li>
+								<%else%>
+									<li><%= link_to current_user.organization.name, organization_path(current_user.organization) %></li>
+								<%end%>
+							<% end %>
+						<% end %>
+					<%else%><li>Hello Guest!<% end %></li>
 				<li class="sep">|</li>
 				<li id="toggle">
 					<% if logged_in? %><%= link_to "Logout", :logout %><%else%>
@@ -130,7 +142,7 @@ $(document).ready(function(){
   <!-- end #mainContent -->
     </div>
     <div id="footer">
-      <p>Copyright &copy; 2009 Historic Elizabeth &ndash; All Rights Reserved. | <%= link_to 'Terms of Use', homes_path('terms') %> | <a href="/abouts">Contact Us</a></p>
+      <p>Copyright &copy; 2009 Historic Elizabeth &ndash; All Rights Reserved. | <a href="/homes">Home</a> | <%= link_to 'Terms of Use', abouts_path('terms') %> | <a href="/abouts">Contact Us</a></p>
     <!-- end #footer --></div>
 	
   <!-- end #container --></div>

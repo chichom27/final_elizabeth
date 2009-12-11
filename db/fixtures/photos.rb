@@ -1,5 +1,7 @@
 Photo.seed_many(:id, [
-=begin
+
+#>>> Begin Dummy seed data
+
   { :id => 32, 
     :album_id => 1, 
     :data_file_name =>"DSC07795.JPG" , 
@@ -135,5 +137,5 @@ Photo.seed_many(:id, [
       :data_file_name =>"DSCF4149.JPG" , 
       :data_content_type => "image/jpeg", 
       :data_file_size => "169524" }
-=end
+
 ])

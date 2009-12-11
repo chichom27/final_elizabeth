@@ -1,15 +1,15 @@
 10
 
 dir
-81
+96
 https://cmu-is-projects.svn.beanstalkapp.com/team09_f09/trunk/public/stylesheets
 https://cmu-is-projects.svn.beanstalkapp.com/team09_f09
 
 
 
-2009-12-07T06:54:51.115466Z
-80
-Daniel
+2009-12-11T00:42:33.002396Z
+96
+surferjermz
 
 
 
@@ -32,10 +32,10 @@ file
 
 
 
-2009-11-29T03:28:11.055922Z
-7329bc1a547c03d2c96258742da1dc7c
-2009-11-29T03:11:36.303098Z
-68
+2009-12-10T20:05:43.925860Z
+20fc15acf710fdcdf5c7bc964cce9bc9
+2009-12-10T00:51:28.511290Z
+92
 surferjermz
 
 
@@ -62,19 +62,15 @@ surferjermz
 
 layout.css
 file
-82
-
-
-
-2009-12-07T08:21:40.600800Z
-1df55360b38568e8f3b898bc4facf7f4
-2009-12-07T08:41:08.327482Z
-82
-chichom27
 
 
 
 
+2009-12-11T01:50:21.350847Z
+d9083dc089eedfbb4d48827560e83843
+2009-12-11T00:42:33.002396Z
+96
+surferjermz
 
 
 
@@ -92,7 +88,11 @@ chichom27
 
 
 
-5489
+
+
+
+
+5667
 
 album_layout.css
 file
@@ -100,11 +100,11 @@ file
 
 
 
-2009-12-02T00:47:27.823922Z
-7c8e529815d720896bd152ff4cb7b889
-2009-11-30T00:53:17.540876Z
-72
-kyeh
+2009-12-10T20:05:43.928860Z
+06b54a278eb0610bffe0845f85745f08
+2009-12-10T06:10:14.280182Z
+93
+surferjermz
 
 
 
@@ -126,7 +126,7 @@ kyeh
 
 
 
-6090
+6178
 
 event_layout.css
 file
@@ -134,11 +134,11 @@ file
 
 
 
-2009-12-02T00:47:27.830922Z
-ea1849ad6eb7c1c84dbed9922db1316d
-2009-11-30T00:53:17.540876Z
-72
-kyeh
+2009-12-10T20:05:43.951860Z
+baded836c2d5d5f6ea1e295cb16d0cf7
+2009-12-10T06:10:14.280182Z
+93
+surferjermz
 
 
 
@@ -160,7 +160,7 @@ kyeh
 
 
 
-6097
+6185
 
 slide.css
 file
@@ -236,44 +236,10 @@ file
 
 
 
-2009-12-02T00:47:27.834922Z
-8e596a5b962f9d069daf4b095f6d953f
-2009-11-30T00:53:17.540876Z
-72
-kyeh
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4718
-
-home_layout.css
-file
-
-
-
-
-2009-12-07T06:52:06.197800Z
-8ba053ecd2e7225c7f36230c3604fe2f
-2009-12-07T04:49:14.241563Z
-78
+2009-12-10T20:05:43.955860Z
+dc9023537fcf4b50117a47445ac838bc
+2009-12-10T06:10:14.280182Z
+93
 surferjermz
 
 
@@ -296,5 +262,39 @@ surferjermz
 
 
 
-4255
+4806
+
+home_layout.css
+file
+
+
+
+
+2009-12-09T20:20:24.853860Z
+693c0938f46ac884cc7afba984579eb3
+2009-12-09T07:54:19.547447Z
+86
+surferjermz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4413
 

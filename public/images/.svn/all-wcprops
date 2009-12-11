@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 43
-/team09_f09/!svn/ver/80/trunk/public/images
+/team09_f09/!svn/ver/93/trunk/public/images
 END
 historic_elizabeth.gif
 K 25
@@ -111,6 +111,12 @@ svn:wc:ra_dav:version-url
 V 57
 /team09_f09/!svn/ver/69/trunk/public/images/homeimage.png
 END
+user_login_f2.png
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/team09_f09/!svn/ver/85/trunk/public/images/user_login_f2.png
+END
 spacer.gif
 K 25
 svn:wc:ra_dav:version-url
@@ -152,6 +158,12 @@ K 25
 svn:wc:ra_dav:version-url
 V 53
 /team09_f09/!svn/ver/21/trunk/public/images/rails.png
+END
+header2.png
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/team09_f09/!svn/ver/93/trunk/public/images/header2.png
 END
 header_r3_c3.png
 K 25
@@ -235,7 +247,7 @@ archive_button_f2.png
 K 25
 svn:wc:ra_dav:version-url
 V 65
-/team09_f09/!svn/ver/35/trunk/public/images/archive_button_f2.png
+/team09_f09/!svn/ver/85/trunk/public/images/archive_button_f2.png
 END
 categories.gif
 K 25
@@ -297,6 +309,12 @@ svn:wc:ra_dav:version-url
 V 52
 /team09_f09/!svn/ver/73/trunk/public/images/maps.gif
 END
+view_map_button.gif
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/team09_f09/!svn/ver/86/trunk/public/images/view_map_button.gif
+END
 check_purple.gif
 K 25
 svn:wc:ra_dav:version-url
@@ -313,7 +331,7 @@ calendar_button_f2.png
 K 25
 svn:wc:ra_dav:version-url
 V 66
-/team09_f09/!svn/ver/35/trunk/public/images/calendar_button_f2.png
+/team09_f09/!svn/ver/85/trunk/public/images/calendar_button_f2.png
 END
 bt_login.png
 K 25
@@ -345,11 +363,17 @@ svn:wc:ra_dav:version-url
 V 57
 /team09_f09/!svn/ver/35/trunk/public/images/site_logo.gif
 END
+header2.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/team09_f09/!svn/ver/93/trunk/public/images/header2.jpg
+END
 information_button_f2.png
 K 25
 svn:wc:ra_dav:version-url
 V 69
-/team09_f09/!svn/ver/35/trunk/public/images/information_button_f2.png
+/team09_f09/!svn/ver/85/trunk/public/images/information_button_f2.png
 END
 add.gif
 K 25
@@ -368,6 +392,12 @@ K 25
 svn:wc:ra_dav:version-url
 V 58
 /team09_f09/!svn/ver/35/trunk/public/images/dropshadow.png
+END
+view_map_button_f2.gif
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/team09_f09/!svn/ver/86/trunk/public/images/view_map_button_f2.gif
 END
 archive_button.png
 K 25
@@ -391,7 +421,7 @@ directory_button_f2.png
 K 25
 svn:wc:ra_dav:version-url
 V 67
-/team09_f09/!svn/ver/35/trunk/public/images/directory_button_f2.png
+/team09_f09/!svn/ver/85/trunk/public/images/directory_button_f2.png
 END
 layout_r3_c3.gif
 K 25

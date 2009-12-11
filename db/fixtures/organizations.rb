@@ -1,5 +1,8 @@
 Organization.seed_many(:id, [
-=begin
+
+
+#>>> Begin Dummy seed data
+
   { :id => 1, 
     :name => "Elizabeth Church", 
     :is_pending => false, 
@@ -40,5 +43,5 @@ Organization.seed_many(:id, [
     :phone => "2404831652",
     :is_active => true,
     :user_id => 6}
-=end
+
   ])

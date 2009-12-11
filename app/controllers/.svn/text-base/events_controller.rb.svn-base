@@ -10,7 +10,7 @@ class EventsController < ApplicationController
      allow :admin
      allow :org, :to => [:create, :new]
      allow all, :to => [:index, :show]
-     allow :owner, :of => :event, :to => [:edit, :cancel, :uncancel]
+     allow :owner, :of => :event, :to => [:edit, :update, :cancel, :uncancel]
   end
   
   

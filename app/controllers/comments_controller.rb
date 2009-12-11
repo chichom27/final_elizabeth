@@ -95,7 +95,11 @@ class CommentsController < ApplicationController
     @comment.destroy
 
     respond_to do |format|
-      format.html { redirect_to(@comment.event) }
+      if @comment.event == nil
+          format.html { redirect_to(@comment.photo) }
+        else
+          format.html { redirect_to(@comment.event) }
+        end
       format.xml  { head :ok }
     end
   end

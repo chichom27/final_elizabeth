@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 46
-/team09_f09/!svn/ver/72/trunk/app/views/events
+/team09_f09/!svn/ver/90/trunk/app/views/events
 END
 edit.html.erb
 K 25
@@ -25,7 +25,7 @@ new.html.erb
 K 25
 svn:wc:ra_dav:version-url
 V 59
-/team09_f09/!svn/ver/82/trunk/app/views/events/new.html.erb
+/team09_f09/!svn/ver/90/trunk/app/views/events/new.html.erb
 END
 show.html.erb
 K 25

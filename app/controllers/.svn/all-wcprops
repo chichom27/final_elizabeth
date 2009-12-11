@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 45
-/team09_f09/!svn/ver/79/trunk/app/controllers
+/team09_f09/!svn/ver/95/trunk/app/controllers
 END
 locations_controller.rb
 K 25
@@ -25,7 +25,7 @@ abouts_controller.rb
 K 25
 svn:wc:ra_dav:version-url
 V 66
-/team09_f09/!svn/ver/73/trunk/app/controllers/abouts_controller.rb
+/team09_f09/!svn/ver/93/trunk/app/controllers/abouts_controller.rb
 END
 pictures_controller.rb
 K 25
@@ -55,7 +55,7 @@ events_controller.rb
 K 25
 svn:wc:ra_dav:version-url
 V 66
-/team09_f09/!svn/ver/82/trunk/app/controllers/events_controller.rb
+/team09_f09/!svn/ver/95/trunk/app/controllers/events_controller.rb
 END
 categories_controller.rb
 K 25
@@ -67,7 +67,7 @@ comments_controller.rb
 K 25
 svn:wc:ra_dav:version-url
 V 68
-/team09_f09/!svn/ver/82/trunk/app/controllers/comments_controller.rb
+/team09_f09/!svn/ver/84/trunk/app/controllers/comments_controller.rb
 END
 sessions_controller.rb
 K 25

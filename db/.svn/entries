@@ -1,15 +1,15 @@
 10
 
 dir
-81
+96
 https://cmu-is-projects.svn.beanstalkapp.com/team09_f09/trunk/db
 https://cmu-is-projects.svn.beanstalkapp.com/team09_f09
 
 
 
-2009-12-07T02:29:26.222729Z
-76
-kyeh
+2009-12-09T06:35:02.790024Z
+85
+surferjermz
 has-props
 
 
@@ -28,19 +28,15 @@ has-props
 
 schema.rb
 file
-82
-
-
-
-2009-12-07T06:56:59.087800Z
-eb24f613351805cd40a638640aa655d6
-2009-12-07T08:41:08.327482Z
-82
-chichom27
 
 
 
 
+2009-12-09T20:20:24.572860Z
+10395aca7159244a0c2d090697a8a70b
+2009-12-09T06:35:02.790024Z
+85
+surferjermz
 
 
 
@@ -58,7 +54,11 @@ chichom27
 
 
 
-4724
+
+
+
+
+4549
 
 seeds.rb
 file
